@@ -55,7 +55,7 @@ int main() {
 
   const handleAskAI = async () => {
     setLoadingAi(true)
-    const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyDsK3lW03VCR5EcSQLQUJd2dmBKFmkxReM';
+    const apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=use key here from gemini';
 
     const requestBody = {
       contents: [
