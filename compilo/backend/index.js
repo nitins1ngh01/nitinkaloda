@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const JDoodleClientID = 'bfd55a887db0512278f726759f303bce';
-const JDoodleClientSecret = 'fa8e5e06dbd1c86a679260741982db95fbe6efba0c364ed00a931fa48570e128';
+const JDoodleClientID = 'jdoodle client id ';
+const JDoodleClientSecret = 'jdoodlge client secret';
 
 
 app.post('/compile', async (req, res) => {
